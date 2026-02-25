@@ -43,7 +43,7 @@ body {
 .navbar-logo {
     font-size: 1.5em;
     font-weight: 800;
-    color: #5fa8ff;
+    color: #10b981;
     letter-spacing: -1px;
     display: flex;
     align-items: center;
@@ -85,13 +85,13 @@ body {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(90deg, #5fa8ff, #4a9eff);
+    background: linear-gradient(90deg, #10b981, #059669);
     transition: width 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 10px;
 }
 
 .nav-link:hover {
-    color: #5fa8ff;
+    color: #10b981;
 }
 
 .nav-link:hover .nav-icon {
@@ -104,7 +104,7 @@ body {
 }
 
 .nav-link.active {
-    color: #5fa8ff;
+    color: #10b981;
 }
 
 .nav-link.active .nav-icon {
@@ -120,7 +120,7 @@ body {
     bottom: 0;
     left: 0;
     height: 2px;
-    background: #5fa8ff;
+    background: #10b981;
     width: 0;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     opacity: 0.8;
@@ -188,9 +188,9 @@ body {
 }
 
 .social-icon:hover {
-    background: #4a9eff;
+    background: #059669;
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(74, 158, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(5, 150, 105, 0.3);
 }
 
 .hero-text {
@@ -207,7 +207,7 @@ body {
 }
 
 .nombre-azul {
-    color: #5fa8ff;
+    color: #10b981;
     text-shadow: none;
 }
 
@@ -243,14 +243,14 @@ body {
 }
 
 .tecnologias-hero span:hover {
-    color: #5fa8ff;
+    color: #10b981;
 }
 
 .btn-cv {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: #5fa8ff;
+    background: #10b981;
     color: white;
     padding: 16px 32px;
     border-radius: 8px;
@@ -264,7 +264,7 @@ body {
 }
 
 .btn-cv:hover {
-    background: #4a9eff;
+    background: #059669;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(95, 168, 255, 0.4);
 }
@@ -280,11 +280,11 @@ body {
 .decorative-shape {
     width: 450px;
     height: 450px;
-    background: linear-gradient(135deg, #5fa8ff 0%, #4a9eff 100%);
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
     border-radius: 50%;
     position: relative;
     animation: float 6s ease-in-out infinite;
-    box-shadow: 0 20px 60px rgba(95, 168, 255, 0.3);
+    box-shadow: 0 20px 60px rgba(16, 185, 129, 0.3);
 }
 
 .decorative-shape::before {
@@ -394,7 +394,7 @@ body {
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: #5fa8ff;
+    background: #10b981;
     border-radius: 10px;
 }
 
@@ -408,7 +408,7 @@ body {
 }
 
 #contacto h2::after {
-    background: #5fa8ff;
+    background: #10b981;
 }
 
 /* ========== PROYECTOS ========== */
@@ -440,7 +440,7 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background: linear-gradient(90deg, #5fa8ff, #4a9eff);
+    background: linear-gradient(90deg, #10b981, #059669);
     transition: height 0.3s ease;
 }
 
@@ -450,8 +450,8 @@ body {
 
 .tarjeta-proyecto:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 50px rgba(95, 168, 255, 0.15);
-    border-color: rgba(95, 168, 255, 0.3);
+    box-shadow: 0 20px 50px rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
 }
 
 .tarjeta-proyecto h3 {
@@ -489,9 +489,9 @@ body {
 }
 
 .tecnologias span:hover {
-    background: #5fa8ff;
+    background: #10b981;
     color: white;
-    border-color: #5fa8ff;
+    border-color: #10b981;
     transform: scale(1.05);
 }
 
@@ -539,14 +539,14 @@ body {
 }
 
 .btn-repo {
-    background: linear-gradient(135deg, #5fa8ff, #4a9eff);
+    background: linear-gradient(135deg, #10b981, #059669);
     color: white;
-    box-shadow: 0 8px 20px rgba(95, 168, 255, 0.3);
+    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
 }
 
 .btn-repo:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 28px rgba(95, 168, 255, 0.4);
+    box-shadow: 0 12px 28px rgba(16, 185, 129, 0.4);
 }
 
 .btn-demo {
@@ -576,7 +576,7 @@ body {
     padding: 30px;
     background: #ffffff;
     border-radius: 12px;
-    border-left: 4px solid #5fa8ff;
+    border-left: 4px solid #10b981;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -619,14 +619,14 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background: #5fa8ff;
+    background: #10b981;
     border-radius: 16px 16px 0 0;
 }
 
 .habilidad-card-nueva:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(95, 168, 255, 0.15);
-    border-color: rgba(95, 168, 255, 0.3);
+    box-shadow: 0 12px 35px rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
 }
 
 .habilidad-card-nueva h3 {
@@ -698,7 +698,7 @@ body {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(180deg, #5fa8ff 0%, #4a9eff 100%);
+    background: linear-gradient(180deg, #10b981 0%, #059669 100%);
 }
 
 .timeline-item {
@@ -714,14 +714,14 @@ body {
     top: 0;
     width: 55px;
     height: 55px;
-    background: linear-gradient(135deg, #5fa8ff, #4a9eff);
+    background: linear-gradient(135deg, #10b981, #059669);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
     color: white;
-    box-shadow: 0 4px 15px rgba(95, 168, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
     z-index: 2;
 }
 
@@ -749,8 +749,8 @@ body {
 
 .timeline-content:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 35px rgba(95, 168, 255, 0.15);
-    border-color: rgba(95, 168, 255, 0.3);
+    box-shadow: 0 12px 35px rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
 }
 
 .timeline-content h3 {
@@ -762,7 +762,7 @@ body {
 }
 
 .timeline-content h4 {
-    color: #5fa8ff;
+    color: #10b981;
     font-size: 1.2em;
     margin-bottom: 15px;
     font-weight: 600;
@@ -784,8 +784,8 @@ body {
 
 .timeline-badge {
     display: inline-block;
-    background: #e8f4ff;
-    color: #5fa8ff;
+    background: #d1fae5;
+    color: #10b981;
     padding: 6px 16px;
     border-radius: 20px;
     font-size: 0.85em;
@@ -813,9 +813,9 @@ body {
 }
 
 .timeline-tags span:hover {
-    background: #5fa8ff;
+    background: #10b981;
     color: white;
-    border-color: #5fa8ff;
+    border-color: #10b981;
     transform: scale(1.05);
 }
 
@@ -881,7 +881,7 @@ body {
     left: 0;
     width: 100%;
     height: 4px;
-    background: #5fa8ff;
+    background: #10b981;
 }
 
 .habilidad-card::after {
@@ -897,8 +897,8 @@ body {
 
 .habilidad-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(95, 168, 255, 0.15);
-    border-color: rgba(95, 168, 255, 0.3);
+    box-shadow: 0 12px 30px rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
 }
 
 .habilidad-card h3 {
@@ -932,7 +932,7 @@ body {
 }
 
 .habilidad-card li:hover {
-    color: #5fa8ff;
+    color: #10b981;
     padding-left: 10px;
 }
 
@@ -996,7 +996,7 @@ body {
     width: 0;
     height: 0;
     border-radius: 50%;
-    background: rgba(95, 168, 255, 0.3);
+    background: rgba(16, 185, 129, 0.3);
     transform: translate(-50%, -50%);
     transition: width 0.6s, height 0.6s;
     z-index: 0;
@@ -1008,10 +1008,10 @@ body {
 }
 
 .contacto-btn:hover {
-    background: rgba(95, 168, 255, 0.25);
-    border-color: rgba(95, 168, 255, 0.6);
+    background: rgba(16, 185, 129, 0.25);
+    border-color: rgba(16, 185, 129, 0.6);
     transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(95, 168, 255, 0.3);
+    box-shadow: 0 12px 30px rgba(16, 185, 129, 0.3);
 }
 
 .contacto-btn > * {
@@ -1144,5 +1144,130 @@ body {
         font-size: 1em;
         margin: -20px auto 40px;
         padding: 0 10px;
+    }
+}
+
+/* ========== MODAL DE CONTACTO ========== */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    margin: 15% auto;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    position: relative;
+    animation: slideInUp 0.4s ease;
+    text-align: center;
+}
+
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 35px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: 1;
+}
+
+.modal-close:hover {
+    color: #10b981;
+    transform: rotate(90deg);
+}
+
+.modal-content h3 {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.modal-info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(16, 185, 129, 0.3);
+}
+
+.modal-info p {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    word-break: break-all;
+    letter-spacing: 0.5px;
+}
+
+.btn-copiar {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(95, 168, 255, 0.3);
+}
+
+.btn-copiar:hover {
+    background: linear-gradient(135deg, #059669, #047857);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(95, 168, 255, 0.4);
+}
+
+.btn-copiar:active {
+    transform: translateY(0);
+}
+
+.mensaje-copiado {
+    color: #4ade80;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 15px;
+    min-height: 25px;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Botón de contacto como button */
+.contacto-btn {
+    background: rgba(16, 185, 129, 0.15);
+    border: 2px solid rgba(16, 185, 129, 0.4);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 30% auto;
+        padding: 30px 20px;
+    }
+    
+    .modal-content h3 {
+        font-size: 1.4em;
+    }
+    
+    .modal-info p {
+        font-size: 1.1em;
     }
 }
