@@ -1,11 +1,10 @@
 // Lista de repositorios a mostrar
 // Formato: 'usuario/repositorio'
 const repositorios = [
-    'CarlosGlezAlv/Carlosemmanuel_proyectos',
-    'CarlosGlezAlv/Generador-de-contrasenas',
-    'CarlosGlezAlv/CarlosGlezAlv.github.io',
-    // Agrega más repositorios aquí:
-    // 'CarlosGlezAlv/otro-proyecto',
+    'Louis-Alamo/compilador',
+    'Louis-Alamo/Hotel-Mirador',
+    'Louis-Alamo/SubManager',
+    'Louis-Alamo/carrito-control-remoto-esp32',
 ];
 
 const contenedor = document.getElementById('contenedor-proyectos');
