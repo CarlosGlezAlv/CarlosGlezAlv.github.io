@@ -1,10 +1,9 @@
-// Lista de repositorios a mostrar
-// Formato: 'usuario/repositorio'
+// Lista de repositorios a mostrar con etiquetas personalizadas
 const repositorios = [
-    'Louis-Alamo/compilador',
-    'Louis-Alamo/Hotel-Mirador',
-    'Louis-Alamo/SubManager',
-    'Louis-Alamo/carrito-control-remoto-esp32',
+    { nombre: 'Louis-Alamo/compilador', etiquetas: [] },
+    { nombre: 'Louis-Alamo/Hotel-Mirador', etiquetas: [] },
+    { nombre: 'Louis-Alamo/SubManager', etiquetas: ['Android Studio'] },
+    { nombre: 'Louis-Alamo/carrito-control-remoto-esp32', etiquetas: [] },
 ];
 
 const contenedor = document.getElementById('contenedor-proyectos');
@@ -15,8 +14,11 @@ async function obtenerProyectos() {
 
         // Recorremos cada repositorio de la lista
         for (const repo of repositorios) {
-            const respuesta = await fetch(`https://api.github.com/repos/${repo}`);
+            const respuesta = await fetch(`https://api.github.com/repos/${repo.nombre}`);
             const datos = await respuesta.json();
+            const etiquetasExtra = repo.etiquetas
+                .map((etiqueta) => `<span>${etiqueta}</span>`)
+                .join('');
 
             // Creamos la tarjeta HTML para cada proyecto
             const tarjeta = `
@@ -25,6 +27,7 @@ async function obtenerProyectos() {
                     <p>${datos.description ? datos.description : 'Sin descripción'}</p>
                     <div class="tecnologias">
                         <span>${datos.language ? datos.language : 'Código'}</span>
+                        ${etiquetasExtra}
                     </div>
                     <div class="enlaces">
                         <a href="${datos.html_url}" target="_blank" class="btn-repo">
